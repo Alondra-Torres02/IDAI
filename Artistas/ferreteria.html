@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ferretería La Esquina Del Constructor</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        header, footer { background-color: #ee6526; color: white; padding: 10px; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        main { margin-top: 20px; }
+        section { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Ferretería La Esquina Del Constructor</h1>
+        <nav>
+            <a href="#productos">Productos</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- SECCIÓN DE PRESENTACIÓN -->
+        <section id="bienvenida">
+            <h2>Bienvenido a nuestra ferretería</h2>
+            <p>En <strong>El Tornillo Feliz</strong> encontrarás todo lo que necesitas para tus proyectos de construcción, reparación y mejoras en el hogar.</p>
+            <img src="ferreteria.jpg" alt="Imagen de la ferretería" width="400">
+        </section>
+
+        <!-- SECCIÓN DE PRODUCTOS -->
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+            <ul>
+                <li>Herramientas manuales</li>
+                <li>Materiales de construcción</li>
+                <li>Pinturas y acabados</li>
+                <li>Electricidad y fontanería</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN DE OFERTAS -->
+        <section id="ofertas">
+            <h2>Ofertas de la semana</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio regular</th>
+                        <th>Precio oferta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lock ligero </td>
+                        <td>$20</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Taladro eléctrico</td>
+                        <td>$80</td>
+                        <td>$65</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2025 Ferretería La Esquina Del Constructor | Calle de los Clavos #123 | Tel: 555-1234</p>
+    </footer>
+
+    <!-- SCRIPT (opcional) -->
+    <script>
+        console.log("¡Gracias por visitar nuestra ferretería!");
+    </script>
+
+</body>
+</html>
