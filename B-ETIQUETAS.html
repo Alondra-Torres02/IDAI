@@ -30,5 +30,137 @@
     <br>
     <p>80 <sub> 6 </sub></p>
 </p>
+ <h1 style="color: darkblue;">Pagina principal</h1>
+    <br>
+    <h1 style="color: rgb(240, 15, 120);">Pagina principal ROSA</h1>
+       <br>
+    <h1 >Pagina principal VERDE</h1>
+       <br>
+    <h1 style="color: rgb(230, 74, 1);">Pagina principal NARANJA</h1>
+       <br>
+    <h3>hola hermoso mundo que has visto nacer.....</h3>
+    <p id="primerparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corrupti itaque saepe, placeat perspiciatis ipsa veritatis veniam harum fugiat nulla pariatur. Voluptatem quam assumenda possimus fugit libero ut, enim optio.</p>
+<br>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dignissimos tempore tempora. In similique veniam repudiandae ullam, ab corrupti mollitia. Dolor aliquam reprehenderit sit rem eos quia distinctio dolorum beatae.
+
+</p>
+<br>
+<p class="grupoparrafos"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed consequatur maxime voluptatum consequuntur et laudantium sint incidunt, saepe nesciunt magnam nobis! Sunt ratione incidunt distinctio sint nihil amet iste magnam.
+<br>
+<br>
+<p class="grupoparrafos"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit iure optio cupiditate amet. Corrupti inventore ipsum reiciendis eveniet adipisci minus, nesciunt omnis provident suscipit eum deserunt, expedita, ullam ab quaerat?
+
+</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas de Programación</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #fdfdfd;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .tool-box {
+      border-radius: 12px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+    .tool-box:hover {
+      transform: scale(1.03);
+    }
+    .tool-box img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .tool-box a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .tool-box a:hover {
+      text-decoration: underline;
+    }
+
+    /* Colores pasteles para cada caja */
+    .box1 { background-color: #fce4ec; } /* rosa pastel */
+    .box2 { background-color: #e1f5fe; } /* celeste pastel */
+    .box3 { background-color: #e8f5e9; } /* verde pastel */
+    .box4 { background-color: #fff3e0; } /* naranja pastel */
+    .box5 { background-color: #f3e5f5; } /* lila pastel */
+    .box6 { background-color: #f9fbe7; } /* lima pastel */
+    .box7 { background-color: #e0f7fa; } /* turquesa pastel */
+    .box8 { background-color: #fffde7; } /* amarillo pastel */
+
+  </style>
+</head>
+<body>
+
+  <h2>Herramientas de Programación</h2>
+  <div class="grid">
+
+    <div class="tool-box box1">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/visual-studio-code/visual-studio-code.png" alt="VS Code">
+      <p><strong>Visual Studio Code</strong><br>Editor de código ligero y extensible.</p>
+      <a href="https://code.visualstudio.com/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box2">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/git/git.png" alt="Git">
+      <p><strong>Git</strong><br>Sistema de control de versiones distribuido.</p>
+      <a href="https://git-scm.com/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box3">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/github/github.png" alt="GitHub">
+      <p><strong>GitHub</strong><br>Plataforma para alojar código y colaborar.</p>
+      <a href="https://github.com/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box4">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/postman/postman.png" alt="Postman">
+      <p><strong>Postman</strong><br>Herramienta para probar APIs de forma sencilla.</p>
+      <a href="https://www.postman.com/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box5">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/docker/docker.png" alt="Docker">
+      <p><strong>Docker</strong><br>Contenerización de aplicaciones para entornos consistentes.</p>
+      <a href="https://www.docker.com/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box6">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/nodejs/nodejs.png" alt="Node.js">
+      <p><strong>Node.js</strong><br>Entorno para ejecutar JavaScript en el servidor.</p>
+      <a href="https://nodejs.org/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box7">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" alt="Python">
+      <p><strong>Python</strong><br>Lenguaje de programación versátil y fácil de aprender.</p>
+      <a href="https://www.python.org/" target="_blank">Visitar sitio</a>
+    </div>
+
+    <div class="tool-box box8">
+      <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React">
+      <p><strong>React</strong><br>Librería de JavaScript para construir interfaces de usuario.</p>
+      <a href="https://react.dev/" target="_blank">Visitar sitio</a>
+    </div>
+
+  </div>
+</body>
+</html>
+
 </body>
 </html>
